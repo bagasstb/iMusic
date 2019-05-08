@@ -13,6 +13,7 @@
 		D0AC841B228180D300A7E881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AC841A228180D300A7E881 /* Assets.xcassets */; };
 		D0AC841E228180D300A7E881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC841C228180D300A7E881 /* LaunchScreen.storyboard */; };
 		D0AC8429228180D300A7E881 /* iMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC8428228180D300A7E881 /* iMusicTests.swift */; };
+		D0AC84372281D35F00A7E881 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0AC84362281D35F00A7E881 /* sample.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D0AC8424228180D300A7E881 /* iMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AC8428228180D300A7E881 /* iMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMusicTests.swift; sourceTree = "<group>"; };
 		D0AC842A228180D300A7E881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0AC84362281D35F00A7E881 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D090F3B02282A09D0050E1F8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		D0AC8407228180D000A7E881 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +86,8 @@
 		D0AC8412228180D100A7E881 /* iMusic */ = {
 			isa = PBXGroup;
 			children = (
+				D090F3B02282A09D0050E1F8 /* Utilities */,
+				D0AC84332281CEF900A7E881 /* Audio */,
 				D0AC8413228180D100A7E881 /* AppDelegate.swift */,
 				D0AC8415228180D100A7E881 /* ViewController.swift */,
 				D0AC8417228180D100A7E881 /* Main.storyboard */,
@@ -94,6 +105,14 @@
 				D0AC842A228180D300A7E881 /* Info.plist */,
 			);
 			path = iMusicTests;
+			sourceTree = "<group>";
+		};
+		D0AC84332281CEF900A7E881 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC84362281D35F00A7E881 /* sample.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +199,7 @@
 				D0AC841E228180D300A7E881 /* LaunchScreen.storyboard in Resources */,
 				D0AC841B228180D300A7E881 /* Assets.xcassets in Resources */,
 				D0AC8419228180D100A7E881 /* Main.storyboard in Resources */,
+				D0AC84372281D35F00A7E881 /* sample.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +379,7 @@
 		D0AC842E228180D300A7E881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Logo;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DBD2357J7Z;
 				INFOPLIST_FILE = iMusic/Info.plist;
@@ -377,7 +397,7 @@
 		D0AC842F228180D300A7E881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Logo;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DBD2357J7Z;
 				INFOPLIST_FILE = iMusic/Info.plist;
